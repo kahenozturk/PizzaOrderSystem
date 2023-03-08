@@ -23,3 +23,7 @@ This program is a Python project that streamlines the process of ordering pizza.
 ## Contributing
 
 We welcome contributions to this project. Feel free to fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
