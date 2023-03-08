@@ -20,6 +20,6 @@ This program is a Python project that streamlines the process of ordering pizza.
 
 4-Once the order is complete, the program will save the order information to a CSV file named Orders_Database.csv.
 
-##Contributing
+## Contributing
 
 We welcome contributions to this project. Feel free to fork the repository and submit a pull request with your changes.
