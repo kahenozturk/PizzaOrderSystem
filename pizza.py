@@ -48,60 +48,39 @@ class Olives(Decorator):
         super().__init__(component)
         self.description = "Olives sauce"
         self.cost = 1.50
-        
-    def get_name(self):
-        return self.description
 
 class Mushrooms(Decorator):
     def __init__(self, component):
         super().__init__(component)
         self.description = "Mushrooms sauce"
         self.cost = 1.00
-        
-    def get_name(self):
-        return self.description
     
 class GoatCheese(Decorator):
     def __init__(self, component):
         super().__init__(component)
         self.description = "Goat Cheese sauce" 
         self.cost = 2.00
-        
-    def get_name(self):
-        return self.description
 
 class Meat(Decorator):
     def __init__(self, component):
         super().__init__(component)
         self.description = "Meat sauce"
         self.cost = 2.50
-        
-    def get_name(self):
-        return self.description
 
 class Onions(Decorator):
     def __init__(self, component):
         super().__init__(component)
         self.description = "Onions sauce"
         self.cost = 1.00
-        
-    def get_name(self):
-        return self.description
 
 class Corn(Decorator):
     def __init__(self, component):
         super().__init__(component)
         self.description = "Corn sauce"
         self.cost = 1.50
-        
-    def get_name(self):
-        return self.description
 
 class Plain(Decorator):
     def __init__(self, component):
         super().__init__(component)
         self.description = "no sauce"
         self.cost = 0.0
-        
-    def get_name(self):
-        return self.description
